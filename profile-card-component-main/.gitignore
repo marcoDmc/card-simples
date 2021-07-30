@@ -1,0 +1,12 @@
+
+*.sketch
+*.fig
+
+
+*.xd
+
+
+.DS_Store
+.design/
+.profile-card-component-main/
+.prettierignore
