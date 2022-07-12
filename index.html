@@ -2,33 +2,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-    <link rel="stylesheet" href="/public/style.css">
-    <title>Frontend Mentor | Profile card component</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/public/style.css">
+  <title>Profile card component</title>
 </head>
 
 <body>
-    <section>
-        <div class="head">
-            <img src="images/image-victor.jpg" alt="icon perfil user">
-        </div>
-        <div class="footer">
-            <strong class="name">Victor Crest</strong> <span class="years">26</span>
-            <p class="city">London</p>
-            <div class="status">
-                <p class="numbers">80k</p>
-                <p class="numbers">803k</p>
-                <p class="numbers">1.4k</p>
-                <p>Followers</p>
-                <p>Like</p>
-                <p>Follow</p>
-            </div>
-        </div>
-    </section>
+
+
+  <div class="card">
+    <img src="./assets/image-victor.jpg" class="card__profile" />
+    <span class="card__information">
+      <strong class="card__information-name">victor crest <mark>26</mark></strong>
+      <small class="card__city">london</small>
+    </span>
+    <span class="card__status">
+      <span class="card__status-followers">
+        <p class="followers">80k</p>
+        <p class="followers">followers</p>
+      </span>
+      <span class="card__status-like">
+        <p class="followers">803k</p>
+        <p class="followers">like</p>
+      </span>
+      <span class="card__status-follow">
+        <p class="followers">1.4k</p>
+        <p class="followers">follow</p>
+      </span>
+    </span>
+  </div>
 </body>
 
 </html>
